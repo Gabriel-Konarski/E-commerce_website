@@ -1,0 +1,54 @@
+{% load static %}
+
+
+<footer class="primary-footer">
+    <div class="container">
+        <div class="primary-footer__wrapper">
+            <a class="primary-footer__logo" href="#">E-shop</a>
+
+            <ul class="social-media" role="list">
+                <li><a aria-label="facebook" href="#">
+                    <svg class="social-icon">
+                        <use xlink:href="{% static 'images/icons/social-media-icons.svg' %}#icon-facebook"></use>
+                    </svg></a>
+                </li>
+                <li><a aria-label="youtube" href="#">
+                    <svg class="social-icon">
+                        <use xlink:href="{% static 'images/icons/social-media-icons.svg' %}#icon-youtube"></use>
+                    </svg></a>
+                </li>
+                <li><a aria-label="twitter" href="#">
+                    <svg class="social-icon">
+                        <use xlink:href="{% static 'images/icons/social-media-icons.svg' %}#icon-twitter"></use>
+                    </svg></a>
+                </li>
+                <li><a aria-label="instagram" href="#">
+                    <svg class="social-icon">
+                        <use xlink:href="{% static 'images/icons/social-media-icons.svg' %}#icon-instagram"></use>
+                    </svg></a>
+                </li>
+            </ul>
+
+            <div class="primary-footer__nav-wrapper">
+                <nav class="footer-nav">
+                    <ul class="primary-footer__links" role="list">
+                        <li><a href="#">Headphones</a></li>
+                        <li><a href="#">Earphones</a></li>
+                        <li><a href="#">Speakers</a></li>
+                        <li><a href="#">About Us</a></li>
+                        <li><a href="#">Careers</a></li>
+                        <li><a href="#">Contact</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                    </ul>
+                </nav>
+            </div>
+
+            <form class="primary-footer__form" action="">
+                <input type="email">
+                <button class="button" data-shadow="none">Go</button>
+              </form>
+            <p class="primary-footer__copyright">Copyright 2020. All Rights Reserved</p>
+            
+        </div>
+    </div>
+</footer>

@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-commerce Gabriel Konarski</title>
+    <!-- <link rel="icon" type="image/png" sizes="32x32" href="./images/"> -->
+
+    <!-- Google fonts -->
+
+    <!-- My CSS -->
+    <link rel="stylesheet" type="text/css" media="screen" href="{% static 'styles/style.css' %}" />
+</head>
+<body>
+    {% include 'navbar.html' %}
+
+    {% block content %}
+
+    {% endblock %}
+
+    {% include 'footer.html' %}
+    <!-- <script src="{% static 'js/script.js' %}"></script> -->
+</body>
+</html>
