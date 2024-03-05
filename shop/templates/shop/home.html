@@ -8,10 +8,10 @@
         <div class="container">
             <div class="even-columns">
                 <div class="hero__description">
-                    <h3>New Product</h3>
-                    <h1 class="hero__product-name">Sony WF-1000XM5 Headphones</h1>
+                    <p class="text-uppercase">New Product</p>
+                    <h1 class="hero__product-name | fs-primary-header">Sony WF-1000XM5 Headphones</h1>
                     <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eveniet necessitatibus modi assumenda
-                        veniam optio eius praesentium itaque distinctio nulla corrupti.</p>
+                        veniam optio eius praesentium itaque distinctio nulla corrupti optio eius praesentium itaque distinctio nulla corrupti.</p>
                     <button class="button">See product</button>
                 </div>
                 <div class="hero__image">
@@ -20,6 +20,47 @@
             </div>
         </div>
     </section>
+
+    <section class="product-categories">
+        <h2 class="padding-block-900 fs-secondary-header text-uppercase">Product categories</h2>
+        <div class="container">
+            <ul class="category | even-columns">
+                <li>
+                    <img src="{% static 'images/stein_speaker_1.png' %}" alt="">
+                    <div class="category__content">
+                        <h2 class="fs-secondary-header">Headphones</h2>
+                        <a href="#">Shop ></a>
+                    </div>
+                </li>
+
+                <li>
+                    <img src="{% static 'images/stein_speaker_1.png' %}" alt="">
+                    <div class="category__content">
+                        <h2 class="fs-secondary-header">Speakers</h2>
+                        <a href="#">Shop ></a>
+                    </div>
+                </li>
+
+                <li>
+                    <img src="{% static 'images/stein_speaker_1.png' %}" alt="">
+                    <div class="category__content">
+                        <h2 class="fs-secondary-header">Earphones</h2>
+                        <a href="#">Shop ></a>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- <section class="best-sellers">
+        <h2>Best sellers</h2>
+        <div class="container">
+            <article class="">
+
+            </article>
+        </div>
+
+    </section> -->
 
 </main>
 
